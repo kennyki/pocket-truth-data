@@ -1,0 +1,26 @@
+{
+  "name": "pocket-truth-data",
+  "version": "0.0.1",
+  "description": "Data of Pocket Truth",
+  "main": "index.coffee",
+  "scripts": {
+    "start": "coffee index.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://kennyki@github.com/kennyki/pocket-truth-data.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kennyki/pocket-truth-data/issues"
+  },
+  "homepage": "https://github.com/kennyki/pocket-truth-data",
+  "devDependencies": {
+    "coffee-script": "^1.9.3"
+  },
+  "dependencies": {
+    "commander": "^2.8.1",
+    "fs-extra": "^0.18.4"
+  }
+}

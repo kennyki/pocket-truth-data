@@ -1,0 +1,106 @@
+{
+  "number": "",
+  "title": "",
+  "verseCount": 0,
+  "lyrics": [
+    // verse 1
+    /*
+      conversions:
+      1. ',RK' indicates end of a paragraph (the last paragraph ends with ',R' though)
+    */
+    [
+      // paragraph 1
+      [],
+      // paragraph 2
+      []
+    ],
+    // verse 2
+    [
+      // paragraph 1
+      [],
+      // paragraph 2
+      []]
+    ]
+  ],
+  /* 
+    conversions:
+    1. remove 'T,' and ',R' and ',RK' and '(verse)'
+    2. split by comma
+    3. convert 'L*' or 'X' to 'L'
+    4. add '.*' to the note for:
+      - 'MDN' (bottom dot)
+      - 'MBN' (bottom line)
+      - 'MUDN' (upper dot)
+      - 'MBDN' (bottom line + dot)
+      - 'MBBN' (bottom double-line)
+      - 'MBBDN' (bottom double-line + dot)
+  */
+  "notes": [
+    // soprano
+    [
+      // paragraph 1
+      [],
+      // paragraph 2
+      []
+    ],
+    // alto
+    [
+      // paragraph 1
+      [],
+      // paragraph 2
+      []
+    ],
+    // tenor
+    [
+      // paragraph 1
+      [],
+      // paragraph 2
+      []
+    ],
+    // bass
+    [
+      // paragraph 1
+      [],
+      // paragraph 2
+      []
+    ]
+  ],
+  "chorus": {
+    "lyrics": [
+      // paragraph 1
+      "",
+      // paragraph 2
+      ""
+    ],
+    "notes": [
+      // soprano
+      [
+        // paragraph 1
+        [],
+        // paragraph 2
+        []
+      ],
+      // alto
+      [
+        // paragraph 1
+        [],
+        // paragraph 2
+        []
+      ],
+      // tenor
+      [
+        // paragraph 1
+        [],
+        // paragraph 2
+        []
+      ],
+      // bass
+      [
+        // paragraph 1
+        [],
+        // paragraph 2
+        []
+      ]
+    ]
+  }
+}
